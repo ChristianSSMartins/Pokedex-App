@@ -1,0 +1,26 @@
+ion-header {
+    ion-toolbar {
+        div {
+            display: flex;
+            justify-content: space-between;
+        }
+        ion-title {
+            font-size: larger;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+    }
+}
+
+ion-content {
+    ion-list {
+
+    }
+    ion-list {
+        ion-item {
+            ion-avatar {
+                width: 80px;
+                height: 80px;
+            }
+        }
+    }
+}

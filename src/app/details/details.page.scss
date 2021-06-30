@@ -1,0 +1,20 @@
+ion-header {
+    ion-toolbar {
+        ion-buttons {
+
+        }
+        ion-title {
+            font-size: larger;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+    }
+}
+
+ion-content {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    ion-card {
+        border-left: 5px solid #dc0a2c;
+        border-right: 5px solid #dc0a2c;
+        border-radius: 3px;
+    }
+}

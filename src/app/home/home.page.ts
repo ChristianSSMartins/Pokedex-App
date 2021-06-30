@@ -21,7 +21,7 @@ export class HomePage implements OnInit {
 
   loadPokemon(loadMore = false, event?) {
     if(loadMore) {
-      this.offset += 25;
+      this.offset += 50;
     }
     this.pokeService.getPokemon(this.offset).subscribe(res => {
       console.log('result: ', res);
